@@ -1,20 +1,16 @@
-baseURL: https://example.com
+baseURL: https://nuhuo08.github.io
 languageCode: en-us
 defaultContentLanguage: en
-title: USWDS
+title: XiaoWu
 theme: uswds-hugo-theme
 enableRobotsTXT: true
 timeout: 45000
-googleAnalytics: UA-123456789-1
 enableGitInfo: true
 
 params:
-  google_ads: ca-pub-1234567812345678
   footer: >
     Made with [Hugo](https://gohugo.io/) &bull;
-    Themed by [USWDS](https://designsystem.digital.gov/) &bull;
-    Deployed to [Netlify](https://www.netlify.com/) &bull;
-    Content in [GitHub](https://github.com/zwbetz-gh/uswds-hugo-theme)
+    Content in [GitHub](https://github.com/nuhuo08/uswds-hugo-theme)
 
 outputs:
   home: [HTML, RSS, JSON]
@@ -41,11 +37,11 @@ menu:
     - name: Blog
       url: /blog/
       weight: 2
-    - name: Tags
-      url: /tags/
-      weight: 3
-    - name: RSS
-      url: /index.xml
+    # - name: Tags
+    #   url: /tags/
+    #   weight: 3
+    - name: About
+      url: /about/
       weight: 4
 
 markup:
