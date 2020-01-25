@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
     
     <link rel="canonical" href="{{ .Permalink }}">
     {{ hugo.Generator }}
@@ -90,6 +95,5 @@
     {{ $themeJs := resources.Get "js/uswds.min.js" | fingerprint }}
     <script src="{{ $themeJs.RelPermalink }}"></script>
 
-    {{ partial "google-analytics.html" . }}
   </body>
 </html>
