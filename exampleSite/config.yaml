@@ -11,14 +11,16 @@ params:
   footer: >
     Made with [Hugo](https://gohugo.io/) &bull;
     Content in [GitHub](https://github.com/nuhuo08/uswds-hugo-theme)
+  utter:
+    repo: "owner/repo"
+    issueTerm: "pathname" #issue name: pathname title url，
+    theme: "github-light"
 
 outputs:
   home: [HTML, RSS, JSON]
 
 pygmentsCodefences: true
 pygmentsStyle: pygments
-
-disqusShortname:
 
 taxonomies:
   tag: tags
